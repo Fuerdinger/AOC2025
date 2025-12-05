@@ -31,7 +31,7 @@ bool removeRolls(int32_t j, int32_t i, const std::vector<std::string>& linesIn, 
 int main()
 {
 	// read data as strings; create NxM grid
-	std::ifstream file("inputs/04_1.txt");
+	std::ifstream file("inputs/04_2.txt");
 	std::string line;
 	std::vector<std::string> lines1;
 	while (std::getline(file, line))
